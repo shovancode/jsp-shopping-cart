@@ -18,3 +18,9 @@
 0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:13:16 +0000] "POST /jsp-shopping-cart/cart HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:13:16 +0000] "GET /jsp-shopping-cart/cart HTTP/1.1" 200 356
 0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:13:17 +0000] "GET /jsp-shopping-cart/index.jsp HTTP/1.1" 200 768
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:14:14 +0000] "GET /jsp-shopping-cart/index.jsp HTTP/1.1" 200 768
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:14:18 +0000] "POST /jsp-shopping-cart/cart HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:14:19 +0000] "GET /jsp-shopping-cart/cart HTTP/1.1" 200 398
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:14:55 +0000] "GET /jsp-shopping-cart/index.jsp HTTP/1.1" 200 768
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:15:03 +0000] "POST /jsp-shopping-cart/cart HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Apr/2026:11:15:03 +0000] "GET /jsp-shopping-cart/cart HTTP/1.1" 200 440

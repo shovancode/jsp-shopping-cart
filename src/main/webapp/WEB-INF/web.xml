@@ -1,14 +1,14 @@
-<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
-         version="5.0">
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         version="5.0"> <!--Defines XML namespace for Jakarta EE web applications Specifies Servlet API version (Jakarta EE 10 uses 5.0)-->
 
-    <servlet>
-        <servlet-name>CartServlet</servlet-name>
-        <servlet-class>com.example.CartServlet</servlet-class>
+    <servlet> <!--Declares a servlet configuration-->
+        <servlet-name>CartServlet</servlet-name><!--Logical name of the servlet (used for mapping)-->
+        <servlet-class>com.example.CartServlet</servlet-class>  <!--Fully qualified class name of the servlet-->
     </servlet>
 
-    <servlet-mapping>
-        <servlet-name>CartServlet</servlet-name>
-        <url-pattern>/cart</url-pattern>
+    <servlet-mapping> <!--Maps servlet to a URL pattern-->
+        <servlet-name>CartServlet</servlet-name> <!--Refers to the servlet defined above-->
+        <url-pattern>/cart</url-pattern> <!--URL path that triggers this servlet-->
     </servlet-mapping>
 
-</web-app>
+</web-app> <!--Root element closing for web application configuration-->
